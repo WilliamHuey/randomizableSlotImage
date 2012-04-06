@@ -59,19 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+            <state line="81" column="20" selection-start="811" selection-end="811" vertical-scroll-proportion="0.34306568">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="9" selection-start="538" selection-end="538" vertical-scroll-proportion="0.94274807">
+            <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/app/controllers/index_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/index/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/index.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/index.css.scss" />
       </list>
     </option>
   </component>
@@ -595,7 +595,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="661" y="16" width="619" height="759" extended-state="1" />
+    <frame x="661" y="16" width="619" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -680,16 +680,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="538" selection-end="538" vertical-scroll-proportion="0.94274807">
+        <state line="81" column="20" selection-start="811" selection-end="811" vertical-scroll-proportion="0.34306568">
           <folding />
         </state>
       </provider>
