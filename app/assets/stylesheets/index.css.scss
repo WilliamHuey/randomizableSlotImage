@@ -27,7 +27,7 @@
     height: 15%;
 }
 
-#midleft{
+#mid1{
 
     border: solid;
     width: 100%;
@@ -42,21 +42,21 @@
 }
 
 
-#topmid{
+#midtop{
 
     border: solid;
     width: 100%;
     height: 15%;
 }
 
-#midmid{
+#mid2{
 
     border: solid;
     width: 100%;
     height: 67%;
 }
 
-#bottommid{
+#midbottom{
 
     border: solid;
     width: 100%;
@@ -71,7 +71,7 @@
     height: 15%;
 }
 
-#midright{
+#mid3{
 
     border: solid;
     width: 100%;
@@ -94,8 +94,17 @@
     float: left;
 }
 
+.dropdown{
+    width: 100%;
+}
+
 .topoptionsadd{
-    width: 50%;
+    width: 40%;
+    float: left;
+}
+
+.random{
+    width: 20%;
     float: right;
 }
 
