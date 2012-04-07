@@ -1,15 +1,10 @@
-/**
- * Created by JetBrains RubyMine.
- * User: william
- * Date: 4/5/12
- * Time: 9:27 PM
- * To change this template use File | Settings | File Templates.
- */
+//new object accept the feed input
 var Will = Will || {};
 Will.ImageSlotMachine = function(feed) {
   this.items = feed.items;
 };
 
+//extend the object
 $.extend(Will.ImageSlotMachine.prototype, {
   addEventListeners: function() {
     var self = this;
@@ -33,12 +28,14 @@ $.extend(Will.ImageSlotMachine.prototype, {
   }
 });
 
+//self-invoking function; run when script is appended in head
 function jsonFlickrFeed(feed) {
   var slotMachine = new Will.ImageSlotMachine(feed);
   slotMachine.setup();
   console.log(feed);
 }
 
+//initial actions place feed in the head
 function load() {
   var head_element = document.getElementsByTagName("head")[0];
   var newScript = document.createElement('script');
@@ -47,6 +44,7 @@ function load() {
   head_element.appendChild(newScript);
 }
 
+//run the initial actions
 $(document).ready(function() {
   load();
 });
